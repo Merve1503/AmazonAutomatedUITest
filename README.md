@@ -6,8 +6,11 @@ This report presents the details of the automated UI testing conducted on the Am
 ## Tools and Libraries Used
 
 Java: Java served as the primary programming language for scripting test scenarios and executing them.
+
 Selenium: Selenium WebDriver was employed for automating web browsers to conduct UI tests. It facilitated interactions with web elements and navigation across the Amazon website.
+
 JUnit: JUnit framework was utilized for organizing and executing the test cases. It provided annotations and assertions to streamline the testing process and validate expected outcomes.
+
 Intellij IDEA: Intellij IDEA served as the integrated development environment for writing, debugging, and managing the test codebase.
 
 ## Test Scenarios
@@ -33,7 +36,9 @@ Go to Cart: Navigate to the shopping cart page and verify if the product is succ
 The test codebase was structured as follows:
 
 Test Classes: Each test scenario was encapsulated within a separate test class, utilizing JUnit annotations for setup, execution, and assertions.
+
 Page Objects: Page object model (POM) design pattern was employed to represent web pages as Java classes. These classes encapsulated the page elements and methods to interact with them, promoting code reusability and maintainability.
+
 Test Data: Test data, such as URLs, input values, and expected outcomes, were managed within separate data files or constants to facilitate easy modification and maintenance.
 
 ## Conclusion
